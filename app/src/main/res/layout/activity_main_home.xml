@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/ColorGray"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:background="@drawable/activity2homecardback"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/ColorPinkLight"
+                android:text="EVENT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Spinner
+                android:background="@drawable/icon_background"
+                android:layout_marginTop="10dp"
+                android:id="@+id/spinnerhome"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/activity2homecardback"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/ColorPinkLight"
+            android:text="CATEGORY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/btnKidLinear"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/icon_background"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="KIDS"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnTeenLinear"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/icon_background"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="TEENS"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnAdultLinear"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/icon_background"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="ADULTS"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/activity2homecardback"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="GENDER"
+            android:textColor="@color/ColorPinkLight"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:id="@+id/btnMaleLinear"
+                android:onClick="btnMale"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_weight="3"
+                android:background="@drawable/icon_background"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_male" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="MALE"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnFemaleLinear"
+                android:onClick="btnFemale"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_weight="3"
+                android:background="@drawable/icon_background"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_female" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="FEMALE"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+         <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+             android:paddingTop="10dp"
+             android:paddingBottom="10dp"
+             android:paddingRight="10dp">
+
+        <TextView
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="serch"
+            android:textColor="@color/ColorPinkLight"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+             <LinearLayout
+                 android:gravity="center"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_marginTop="5dp"
+                 android:orientation="horizontal">
+
+
+             <LinearLayout
+                 android:onClick="btnGo"
+                 android:layout_width="wrap_content"
+                 android:layout_height="50dp"
+                 android:layout_margin="5dp"
+                 android:background="@drawable/button_clicked_back"
+                 android:orientation="horizontal"
+                 android:padding="8dp">
+
+                 <ImageView
+                     android:layout_width="15dp"
+                     android:layout_height="30dp"
+                     android:layout_gravity="center"
+                     app:srcCompat="@drawable/ic_baseline_search_24" />
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:gravity="center"
+                     android:text="SEARCH"
+                     android:textColor="@color/white"
+                     android:textSize="13sp"
+                     android:textStyle="bold" />
+
+             </LinearLayout>
+
+             </LinearLayout>
+
+
+         </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="2"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <LinearLayout-->
+<!--                android:padding="10dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:id="@+id/idgo"-->
+<!--                android:onClick="btnGo"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:background="@drawable/buttonback"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="50dp">-->
+
+
+<!--                <ImageView-->
+<!--                    app:srcCompat="@drawable/ic_baseline_search_24"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="40dp"/>-->
+
+<!--                <TextView-->
+<!--                    android:gravity="center"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textSize="15sp"-->
+<!--                    android:text="SEARCH"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"/>-->
+
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+
+    </LinearLayout>
+
+
+
+<!--    <TextView-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="20sp"-->
+<!--        android:text="Made For You"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+
+            <GridView
+                android:id="@+id/GViewSuggestedItems"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnWidth="100dp"
+                android:horizontalSpacing="10dp"
+                android:numColumns="auto_fit"
+                android:verticalSpacing="10dp" />
+
+
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>

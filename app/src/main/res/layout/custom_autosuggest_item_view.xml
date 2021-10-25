@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/button_white"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/GriCusImage"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/magneticscketch"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+        <ImageButton
+            android:id="@+id/GriCusAddImageBtn"
+            android:background="@drawable/ic_baseline_add_circle_24"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+
+        <ImageButton
+            android:layout_alignParentRight="true"
+            android:id="@+id/GriCusFavImageBtn"
+            android:background="@drawable/ic_baseline_outlined_heart_24"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/GriCusTitle"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Hover Board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/GriCusPrice"
+        android:layout_gravity="center"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:text="$19.99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>

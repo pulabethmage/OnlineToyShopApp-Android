@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:background="@drawable/activity2homecardback"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/lvImage"
+            android:src="@drawable/magneticscketch"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"/>
+
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_width="1dp"
+            android:background="@color/ColorPinkLight"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/ColorPinkLight"
+                android:id="@+id/lvTitle"
+                android:textSize="18sp"
+                android:text="Magnetic Sketch Book"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="@color/ColorPinkDark"
+                    android:textStyle="bold"
+                    android:text="$29.99"
+                    android:textSize="18sp"
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        app:srcCompat="@drawable/ic_baseline_outlined_heart_24"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:textColor="@color/ColorPinkLight"
+                        android:text="96"
+                        android:textSize="15sp"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+                <ImageView
+                    android:id="@+id/btnDesc"
+                    app:srcCompat="@drawable/ic_baseline_description_24"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="25dp"/>
+
+                <LinearLayout
+                    android:padding="2dp"
+                    android:background="@drawable/buttonback"
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        app:srcCompat="@drawable/ic_baseline_shopping_cart_24"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"/>
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:text="Buy Now"
+                        android:textSize="15sp"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"/>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"/>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

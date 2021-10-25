@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_background"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+       android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/activity2homecardback"
+        android:orientation="vertical">
+
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/ColorPinkLight"
+                    android:textSize="20dp"
+                    android:text="Magnetic Sketch Board "
+                    android:layout_width="0dp"
+                    android:layout_weight="9"
+                    android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:src="@drawable/ic_baseline_outlined_heart_24"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="23dp"/>
+
+        </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="150dp">
+
+                <LinearLayout android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:src="@drawable/magneticscketch"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_margin="5dp"
+                        android:src="@drawable/hoverboard"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_margin="5dp"
+                        android:src="@drawable/hotwheelcollection"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"/>
+
+                    <ImageView
+                        android:layout_margin="5dp"
+                        android:src="@drawable/magneticscketch"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingBottom="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="@string/item_decription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="@color/ColorPinkLight"
+                android:textSize="20sp"
+                android:text="You can buy it at"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="@string/item_decription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
